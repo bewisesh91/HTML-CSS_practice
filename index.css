@@ -29,7 +29,7 @@
 } 
 
 .input-button {
-    width: 100%;
+    width: 25%;
     height: 100%;
     border: 1px lightslategray solid;
     border-radius: 10px;
@@ -50,8 +50,8 @@
 }
 
 .large {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    width: Calc(50% + 24px);
+    margin-left: 8px;
 }
 
 
