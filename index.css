@@ -49,13 +49,11 @@
     background-color: seashell;
 }
 
-.large {
-    width: Calc(50% + 24px);
-    margin-left: 8px;
+/* hover는 마우스 올렸을 때 변화 효과 */
+.input-button:hover {
+    background-color: whitesmoke;
 }
 
-
-/* hover는 마우스 올렸을 때 변화 효과 */
-.input_button:hover {
-    background-color: whitesmoke;
+.small {
+    display: flex;
 }
